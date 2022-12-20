@@ -1,0 +1,22 @@
+create table emp
+(
+    emp_no number,
+    emp_name varchar(20)
+);
+
+alter table emp add emp_phone number(10);
+
+Rename emp to employee;
+
+alter table emmployee drop COLUMN emp_phone;
+
+alter table employee modify
+(emp_name varchar
+(50));
+
+alter table employee rename column emp_name to employee_name;
+
+drop TABLE employee;
+
+truncate table employee;
+
